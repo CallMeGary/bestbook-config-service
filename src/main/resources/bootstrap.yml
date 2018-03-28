@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bestshop-config-service
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: file://Users/gary.zhang/Dev/git/BestShop/bestshop-config-repo/
